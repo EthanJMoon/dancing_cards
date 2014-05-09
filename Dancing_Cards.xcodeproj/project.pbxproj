@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF27115191D57B2001B5BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF27114191D57B2001B5BB5 /* Foundation.framework */; };
+		4CF27117191D57B2001B5BB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF27116191D57B2001B5BB5 /* CoreGraphics.framework */; };
+		4CF27119191D57B3001B5BB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF27118191D57B3001B5BB5 /* UIKit.framework */; };
+		4CF2711F191D57B3001B5BB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2711D191D57B3001B5BB5 /* InfoPlist.strings */; };
+		4CF27121191D57B3001B5BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF27120191D57B3001B5BB5 /* main.m */; };
+		4CF27125191D57B3001B5BB5 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF27124191D57B3001B5BB5 /* EMAppDelegate.m */; };
+		4CF27127191D57B3001B5BB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF27126191D57B3001B5BB5 /* Images.xcassets */; };
+		4CF2712E191D57B3001B5BB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF2712D191D57B3001B5BB5 /* XCTest.framework */; };
+		4CF2712F191D57B4001B5BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF27114191D57B2001B5BB5 /* Foundation.framework */; };
+		4CF27130191D57B4001B5BB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF27118191D57B3001B5BB5 /* UIKit.framework */; };
+		4CF27138191D57B4001B5BB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CF27136191D57B4001B5BB5 /* InfoPlist.strings */; };
+		4CF2713A191D57B4001B5BB5 /* Dancing_CardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF27139191D57B4001B5BB5 /* Dancing_CardsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF27131191D57B4001B5BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF27109191D57B2001B5BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF27110191D57B2001B5BB5;
+			remoteInfo = Dancing_Cards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CF27111191D57B2001B5BB5 /* Dancing_Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dancing_Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF27114191D57B2001B5BB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CF27116191D57B2001B5BB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CF27118191D57B3001B5BB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CF2711C191D57B3001B5BB5 /* Dancing_Cards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dancing_Cards-Info.plist"; sourceTree = "<group>"; };
+		4CF2711E191D57B3001B5BB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CF27120191D57B3001B5BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF27122191D57B3001B5BB5 /* Dancing_Cards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dancing_Cards-Prefix.pch"; sourceTree = "<group>"; };
+		4CF27123191D57B3001B5BB5 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		4CF27124191D57B3001B5BB5 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		4CF27126191D57B3001B5BB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CF2712C191D57B3001B5BB5 /* Dancing_CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dancing_CardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2712D191D57B3001B5BB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4CF27135191D57B4001B5BB5 /* Dancing_CardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dancing_CardsTests-Info.plist"; sourceTree = "<group>"; };
+		4CF27137191D57B4001B5BB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CF27139191D57B4001B5BB5 /* Dancing_CardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dancing_CardsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF2710E191D57B2001B5BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF27117191D57B2001B5BB5 /* CoreGraphics.framework in Frameworks */,
+				4CF27119191D57B3001B5BB5 /* UIKit.framework in Frameworks */,
+				4CF27115191D57B2001B5BB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF27129191D57B3001B5BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2712E191D57B3001B5BB5 /* XCTest.framework in Frameworks */,
+				4CF27130191D57B4001B5BB5 /* UIKit.framework in Frameworks */,
+				4CF2712F191D57B4001B5BB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF27108191D57B2001B5BB5 = {
+			isa = PBXGroup;
+			children = (
+				4CF2711A191D57B3001B5BB5 /* Dancing_Cards */,
+				4CF27133191D57B4001B5BB5 /* Dancing_CardsTests */,
+				4CF27113191D57B2001B5BB5 /* Frameworks */,
+				4CF27112191D57B2001B5BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF27112191D57B2001B5BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF27111191D57B2001B5BB5 /* Dancing_Cards.app */,
+				4CF2712C191D57B3001B5BB5 /* Dancing_CardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF27113191D57B2001B5BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF27114191D57B2001B5BB5 /* Foundation.framework */,
+				4CF27116191D57B2001B5BB5 /* CoreGraphics.framework */,
+				4CF27118191D57B3001B5BB5 /* UIKit.framework */,
+				4CF2712D191D57B3001B5BB5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF2711A191D57B3001B5BB5 /* Dancing_Cards */ = {
+			isa = PBXGroup;
+			children = (
+				4CF27123191D57B3001B5BB5 /* EMAppDelegate.h */,
+				4CF27124191D57B3001B5BB5 /* EMAppDelegate.m */,
+				4CF27126191D57B3001B5BB5 /* Images.xcassets */,
+				4CF2711B191D57B3001B5BB5 /* Supporting Files */,
+			);
+			path = Dancing_Cards;
+			sourceTree = "<group>";
+		};
+		4CF2711B191D57B3001B5BB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2711C191D57B3001B5BB5 /* Dancing_Cards-Info.plist */,
+				4CF2711D191D57B3001B5BB5 /* InfoPlist.strings */,
+				4CF27120191D57B3001B5BB5 /* main.m */,
+				4CF27122191D57B3001B5BB5 /* Dancing_Cards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF27133191D57B4001B5BB5 /* Dancing_CardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF27139191D57B4001B5BB5 /* Dancing_CardsTests.m */,
+				4CF27134191D57B4001B5BB5 /* Supporting Files */,
+			);
+			path = Dancing_CardsTests;
+			sourceTree = "<group>";
+		};
+		4CF27134191D57B4001B5BB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF27135191D57B4001B5BB5 /* Dancing_CardsTests-Info.plist */,
+				4CF27136191D57B4001B5BB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF27110191D57B2001B5BB5 /* Dancing_Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2713D191D57B4001B5BB5 /* Build configuration list for PBXNativeTarget "Dancing_Cards" */;
+			buildPhases = (
+				4CF2710D191D57B2001B5BB5 /* Sources */,
+				4CF2710E191D57B2001B5BB5 /* Frameworks */,
+				4CF2710F191D57B2001B5BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dancing_Cards;
+			productName = Dancing_Cards;
+			productReference = 4CF27111191D57B2001B5BB5 /* Dancing_Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF2712B191D57B3001B5BB5 /* Dancing_CardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF27140191D57B4001B5BB5 /* Build configuration list for PBXNativeTarget "Dancing_CardsTests" */;
+			buildPhases = (
+				4CF27128191D57B3001B5BB5 /* Sources */,
+				4CF27129191D57B3001B5BB5 /* Frameworks */,
+				4CF2712A191D57B3001B5BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF27132191D57B4001B5BB5 /* PBXTargetDependency */,
+			);
+			name = Dancing_CardsTests;
+			productName = Dancing_CardsTests;
+			productReference = 4CF2712C191D57B3001B5BB5 /* Dancing_CardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF27109191D57B2001B5BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EthanMoon;
+				TargetAttributes = {
+					4CF2712B191D57B3001B5BB5 = {
+						TestTargetID = 4CF27110191D57B2001B5BB5;
+					};
+				};
+			};
+			buildConfigurationList = 4CF2710C191D57B2001B5BB5 /* Build configuration list for PBXProject "Dancing_Cards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CF27108191D57B2001B5BB5;
+			productRefGroup = 4CF27112191D57B2001B5BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF27110191D57B2001B5BB5 /* Dancing_Cards */,
+				4CF2712B191D57B3001B5BB5 /* Dancing_CardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF2710F191D57B2001B5BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2711F191D57B3001B5BB5 /* InfoPlist.strings in Resources */,
+				4CF27127191D57B3001B5BB5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2712A191D57B3001B5BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF27138191D57B4001B5BB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF2710D191D57B2001B5BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF27125191D57B3001B5BB5 /* EMAppDelegate.m in Sources */,
+				4CF27121191D57B3001B5BB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF27128191D57B3001B5BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2713A191D57B4001B5BB5 /* Dancing_CardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF27132191D57B4001B5BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF27110191D57B2001B5BB5 /* Dancing_Cards */;
+			targetProxy = 4CF27131191D57B4001B5BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF2711D191D57B3001B5BB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF2711E191D57B3001B5BB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CF27136191D57B4001B5BB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF27137191D57B4001B5BB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF2713B191D57B4001B5BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF2713C191D57B4001B5BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF2713E191D57B4001B5BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dancing_Cards/Dancing_Cards-Prefix.pch";
+				INFOPLIST_FILE = "Dancing_Cards/Dancing_Cards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CF2713F191D57B4001B5BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dancing_Cards/Dancing_Cards-Prefix.pch";
+				INFOPLIST_FILE = "Dancing_Cards/Dancing_Cards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CF27141191D57B4001B5BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dancing_Cards.app/Dancing_Cards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dancing_Cards/Dancing_Cards-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dancing_CardsTests/Dancing_CardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4CF27142191D57B4001B5BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dancing_Cards.app/Dancing_Cards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dancing_Cards/Dancing_Cards-Prefix.pch";
+				INFOPLIST_FILE = "Dancing_CardsTests/Dancing_CardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF2710C191D57B2001B5BB5 /* Build configuration list for PBXProject "Dancing_Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2713B191D57B4001B5BB5 /* Debug */,
+				4CF2713C191D57B4001B5BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2713D191D57B4001B5BB5 /* Build configuration list for PBXNativeTarget "Dancing_Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2713E191D57B4001B5BB5 /* Debug */,
+				4CF2713F191D57B4001B5BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF27140191D57B4001B5BB5 /* Build configuration list for PBXNativeTarget "Dancing_CardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF27141191D57B4001B5BB5 /* Debug */,
+				4CF27142191D57B4001B5BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF27109191D57B2001B5BB5 /* Project object */;
+}
